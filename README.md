@@ -31,11 +31,11 @@ The solution design is explained in the pdf file - PaytmlabsSDEChallenge_DesignS
 Additionally:
 1. Handle large write volume: Billions of write events per day.
 
-
-    Microservices based architecture will be an ideal candidate for a problem of this scale. We can have below mentioned microservices (each of which has multiple instances based on volume)
-    - analytics-read : This microservice will accept data from input, do some basic validations, and post it to a Kafka topic.
-    - analytics-process : This microservice listens to the Kafka topic where the analystic-read microservice publishes. It will then persist
-    the received data in a No-SQL database Cassandra.
+    `Microservices based architecture will be an ideal candidate for a problem of this scale. We can have below mentioned microservices (each of which has multiple instances based on volume)`
+    
+     `- analytics-read : This microservice will accept data from input, do some basic validations, and post it to a Kafka topic.`
+     
+     `- analytics-process : This microservice listens to the Kafka topic where the analystic-read microservice publishes. It will then persist the received data in a No-SQL database Cassandra.`
 
 2. Handle large read/query volume: 
 
