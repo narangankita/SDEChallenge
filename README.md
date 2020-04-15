@@ -1,3 +1,4 @@
+
 **1. Coding Question**
 
 **Solution**
@@ -54,4 +55,3 @@ Additionally:
 5. Have the ability to reprocess historical data in case of bugs in the processing logic.
 
     `Create a datastore which persists status of each request. analytics-read microservice should update this status. Create a third microservice that reads from that data store, and re-publishes the request on to the kafka topic`
-
