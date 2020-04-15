@@ -1,7 +1,5 @@
 
-**1. Coding Question**
-
-**Solution**
+**1. Coding Solution**
 
 The code for the question can be found in the "src" folder.
 
@@ -22,9 +20,7 @@ This class provides the definitions for all the 3 functions defined in the inter
 2. getElements() - returns the list of all the elements that have been added
 3. calculateMovingAverage() - if the size of the list is greater than or equal to ’N’, we divide the sum by N to get the average. Otherwise, if the size of the list is less than N or N is not greater than zero, we return null.
 
-**2. Design Question**
-
-**Solution**
+**2. Design Solution**
 
 The solution design is explained in the pdf file - PaytmlabsSDEChallenge_DesignSolution.pdf
 
@@ -40,7 +36,7 @@ Additionally:
 2. Handle large read/query volume: 
 
     `Millions of merchants wish to gain insight into their business. Read/Query patterns are time-series related metrics.
-    Cassandra is a highly scalable DB which can store large amounts of data. Used together with Apache Spark it will be an efficient solution.`
+     Cassandra is a highly scalable DB which can store large amounts of data. Used together with Apache Spark it will be an efficient solution.`
 
 3. Provide metrics to customers with at most one hour delay.
 
@@ -50,7 +46,7 @@ Additionally:
 
     `- Have microservices run in multiple instances, and regions.`
     
-    `-Routing policy should be used to efficiently divide traffic amongst instances, and create new instances (using Autoscaling Groups) when required`
+    `- Routing policy should be used to efficiently divide traffic amongst instances, and create new instances (using Autoscaling Groups) when required`
 
 5. Have the ability to reprocess historical data in case of bugs in the processing logic.
 
