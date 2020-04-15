@@ -5,7 +5,7 @@
 
 The code for the question can be found in the "src" folder.
 
-Additional explanation about the interface and implementation : Interface : com.paytmlabs.sdechallenge.calculateaverage.MovingAverage.
+Additional explanation about the interface and implementation : Interface : com.paytmlabs.sdechallenge.MovingAverage.java
 This interface declares 3 methods to solve the question:
 1. calculateMovingAverage - to calculate the moving average of last N numbers
 2. addElement(T element) - to add element to the data structure
@@ -13,7 +13,7 @@ This interface declares 3 methods to solve the question:
 
 This interface is created as a generic type where the implementation class can decide about the type of elements in wants to use and operate on.
 
-Implementation : com.paytmlabs.sdechallenge.core.MovingAverageImpl is the implementation class for MovingAverage. This implementation is for the type Double.
+Implementation : com.paytmlabs.sdechallenge.MovingAverageImpl is the implementation class for MovingAverage. This implementation is for the type Double.
 
 The constructor tells the program that what would be the value for ’N’. This is initialized in the drivers class - CalculateMovingAverage.java.
 
